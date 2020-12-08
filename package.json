@@ -1,6 +1,6 @@
 {
   "name": "boriskirov",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A personal card for Boris Kirov",
   "homepage": "https://boriskirov.cc",
   "main": "index.js",
@@ -15,7 +15,8 @@
     "card",
     "npm",
     "npm card",
-    "business card"
+    "business card",
+    "npx"
   ],
   "author": "Boris Kirov",
   "license": "MIT",

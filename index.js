@@ -12,30 +12,6 @@ clear();
 
 const prompt = inquirer.createPromptModule();
 
-// // Questions after the card 
-// const questions = [
-//     {
-//         type: "list",
-//         name: "action",
-//         message: "What you want to do?",
-//         choices: [
-//             {
-//                 name: `Send me an ${chalk.green.bold("email")}?`,
-//                 value: () => {
-//                     open("mailto:camthomp96@gmail.com");
-//                     console.log("\nDone, see you soon.\n");
-//                 }
-//             },
-//             {
-//                 name: "Just quit.",
-//                 value: () => {
-//                     console.log("Good Bye!\n");
-//                 }
-//             }
-//         ]
-//     }
-// ];
-
 // Data for the card
 const data = {
     name: chalk.bold.white("Boris Kirov"),
@@ -78,17 +54,3 @@ const me = boxen(
 
 // Print the card
 console.log(me);
-
-// // Optional tip to help users use the links
-// const tip = [
-//     `Tip: Try ${chalk.cyanBright.bold(
-//         "cmd/ctrl + click"
-//     )} on the links above`,
-//     '',
-// ].join("\n");
-
-// // Show the tip 
-// console.log(tip);
-
-// // Ask the Inquirer questions. 
-// prompt(questions).then(answer => answer.action());

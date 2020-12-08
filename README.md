@@ -1,6 +1,6 @@
 # Hi there 👋
 
-I'm currently getting things done at [Miro](https://miro.com).
+You can run the command in the browser to get more info about me.
 
 ```
 npx boriskirov

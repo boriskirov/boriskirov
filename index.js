@@ -20,7 +20,7 @@ const data = {
     linkedin: chalk.white.bold("https://linkedin.com/in/boris-kirov-b6b110a4"),
     dribbble: chalk.white.bold("https://dribbble.com/boriskirov"),
     web: chalk.magentaBright("https://boriskirov.cc"),
-    npm: chalk.white("npm") + " " + chalk.white("boriskirov"),
+    npm: chalk.white("npx") + " " + chalk.white("boriskirov"),
 
     labelWork: chalk.dim("Work:"),
     labelGitHub: chalk.dim("GitHub:"),
